@@ -1,0 +1,3 @@
+[Data]
+pred_column_names = name,position,team,creativity,influence,threat,was_home,starts,opponent_team
+res_column_names = xP,assists,bps,clean_sheets,expected_assists,expected_goal_involvements,expected_goals,expected_goals_conceded,goals_conceded,goals_scored,minutes,saves,selected,total_points
