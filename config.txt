@@ -3,8 +3,6 @@ pred_column_names = name,position,team,creativity,influence,threat,was_home,oppo
 res_column_names = xP,assists,bps,clean_sheets,expected_assists,expected_goal_involvements,expected_goals,expected_goals_conceded,goals_conceded,goals_scored,minutes,saves,selected,starts,total_points
 
 [Preprocessing]
-total_stat_list = xP,starts,assists,bps,clean_sheets,expected_assists,expected_goal_involvements,expected_goals,expected_goals_conceded,goals_conceded,goals_scored,minutes,saves,total_points
-min_starts = 4
-recent_stat_list = xP,assists,bps,clean_sheets,expected_assists,expected_goal_involvements,expected_goals,expected_goals_conceded,goals_conceded,goals_scored,minutes,saves,total_points
-recent_num_gws = 3 
-avg_stat_list = xP,assists,bps,clean_sheets,expected_assists,expected_goal_involvements,expected_goals,expected_goals_conceded,goals_conceded,goals_scored,minutes,saves,total_points
+stat_list = starts,xP,assists,bps,clean_sheets,expected_assists,expected_goal_involvements,expected_goals,expected_goals_conceded,goals_conceded,goals_scored,minutes,saves,total_points
+min_starts = 3
+recent_num_gws = 3
